@@ -1,11 +1,17 @@
+## Autores Arnold Joseph Merchan Rojas  y Santiago Guarin Alfaro
+##ejercicio litros de leche y numeros de huevos
+#se defininenvariables
 v = int(input('digite la cantidad de vacas '))
 a= int(input('digite la cantidad de aves '))
 e = int(input('digite la cantidad de escorpiones '))
-
+#variables de entradapara litros que produce y metros que pata cada vaca
 k = int(input('ingrese la cantidad de litros de leche que producen las vacas tras pastar 1 metro cuadrado '))
 x = int(input('ingrese la cantidad de metros cuadrados que pastan las vacas en un dia '))
+#se hallan la cantidd de litros que se producen
 litros = v*(k*x)
+#se imprime el resultado
 print(f'la cantidad de litros de leche producidos por dia en la granja es de: {litros}\nla cantidad de litros de leche que produce la granja en una semana es de: {litros*7}')
+#nueva variable x
 cant_galli = (a//3)//2
 huev_cad3= cant_galli*10
 huev_cad5=cant_galli*6
